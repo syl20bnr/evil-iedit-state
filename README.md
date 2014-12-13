@@ -4,6 +4,7 @@
 **Table of Contents**
 
 - [evil-iedit-state](#evil-iedit-state)
+    - [Description](#description)
     - [Install](#install)
         - [Package manager](#package-manager)
         - [Manually](#manually)
@@ -13,6 +14,8 @@
         - [In iedit-insert state](#in-iedit-insert-state)
 
 <!-- markdown-toc end -->
+
+## Description
 
 This package adds two new evil states:
 - iedit state
