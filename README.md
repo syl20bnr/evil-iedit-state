@@ -59,14 +59,12 @@ both `iedit` and `evil` to be installed.
 <kbd>e</kbd>       | expand-region      | iedit
 <kbd>ESC</kbd>     | iedit              | normal
 <kbd>C-g</kbd>     | iedit              | normal
-<kbd>fd</kbd>      | iedit              | normal
 <kbd>ESC</kbd>     | iedit-insert       | iedit
 <kbd>C-g</kbd>     | iedit-insert       | normal
-<kbd>fd</kbd>      | iedit-insert       | normal
 
 To sum-up, in `iedit-insert state` you have to press <kbd>ESC</kbd> twice to
 go back to the `normal state`. You can also at any time press <kbd>C-g</kbd>
-or <kbd>fd</kbd> to return to `normal state`.
+to return to `normal state`.
 
 **Note:** evil commands which switch to `insert state` will switch in
 `iedit-insert state`.
