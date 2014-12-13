@@ -17,7 +17,7 @@
 
 ## Description
 
-This package adds two new evil states:
+This package adds two new [Evil][evil-link] states:
 - iedit state
 - iedit-insert state
 
@@ -28,7 +28,7 @@ of the current selected text by pressing <kbd>e</kbd>.
 
 ### Package manager
 
-**will be available soon**
+** >>>>>>>>>>>>>>>>>>>>>>> will be available soon <<<<<<<<<<<<<<<<<<<<<<< **
 
 You can either install `evil-iedit-state` from [MELPA][melpa-link]:
 
@@ -110,5 +110,7 @@ default Vim behavior when used outside of an occurrence.
 <kbd>ESC</kbd>             | go back to `iedit state`
 <kbd>C-g</kbd>             | go back to `normal state`
 
+[melpa-link]: http://melpa.org/
+[evil-link]: https://gitorious.org/evil/pages/Home
 [iedit]: https://github.com/tsdh/iedit
 [expand-region]: https://github.com/magnars/expand-region.el
