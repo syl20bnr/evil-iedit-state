@@ -165,7 +165,6 @@ If INTERACTIVE is non-nil then COMMAND is called interactively."
        ad-do-it
        (let ((default-msg (car ad-return-value))
              (default-bindings (cdr ad-return-value)))
-         (message "%s" default-bindings)
          (setq ad-return-value
                (cons (concat default-msg ", e to edit")
                      (add-to-list 'default-bindings
