@@ -1,4 +1,5 @@
 # evil-iedit-state
+[![MELPA](http://melpa.org/packages/evil-iedit-state-badge.svg)](http://melpa.org/#/evil-iedit-state)
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc/generate-toc again -->
 **Table of Contents**
@@ -28,8 +29,6 @@ of the current selected text by pressing <kbd>e</kbd>.
 
 ### Package manager
 
-** >>>>>>>>>>>>>>>>>>>>>>> will be available soon <<<<<<<<<<<<<<<<<<<<<<< **
-
 You can either install `evil-iedit-state` from [MELPA][melpa-link]:
 
 ```
@@ -55,7 +54,6 @@ both `iedit` and `evil` to be installed.
 
     Key Binding    |       From         |          To
 -------------------|:------------------:|:-------------------------:
-<kbd>SPC s e</kbd> | normal or visual   | iedit
 <kbd>e</kbd>       | expand-region      | iedit
 <kbd>ESC</kbd>     | iedit              | normal
 <kbd>C-g</kbd>     | iedit              | normal
