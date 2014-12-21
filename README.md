@@ -1,5 +1,6 @@
 # evil-iedit-state
 [![MELPA](http://melpa.org/packages/evil-iedit-state-badge.svg)](http://melpa.org/#/evil-iedit-state)
+[![MELPA Stable](http://stable.melpa.org/packages/evil-iedit-state-badge.svg)](http://stable.melpa.org/#/evil-iedit-state)
 
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc/generate-toc again -->
 **Table of Contents**
