@@ -158,7 +158,7 @@ If INTERACTIVE is non-nil then COMMAND is called interactively."
        (evil-iedit-state/iedit-mode arg)
        ;; hack to leave expand-region temporary overlay map
        ;; we choose a letter that is not in `iedit state'
-       (setq unread-command-events (listify-key-sequence "kj")))
+       (setq unread-command-events (listify-key-sequence [down up])))
 
      (defadvice er/prepare-for-more-expansions-internal
          (around iedit/prepare-for-more-expansions-internal activate)
