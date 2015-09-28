@@ -150,6 +150,7 @@ If INTERACTIVE is non-nil then COMMAND is called interactively."
   (evil-paste-before count))
 
 ;; expand-region integration, add an "e" command
+;;;###autoload
 (eval-after-load 'expand-region
   '(progn
      (defun evil-iedit-state/iedit-mode-from-expand-region (&optional arg)
