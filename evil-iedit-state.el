@@ -48,7 +48,8 @@
   :tag " <Ei> "
   :enable (insert)
   :cursor (bar . 2)
-  :message "-- IEDIT-INSERT --")
+  :message "-- IEDIT-INSERT --"
+  :input-method t)
 
 (defun evil-iedit-state/iedit-mode (&optional arg)
   "Start `iedit-mode'."
