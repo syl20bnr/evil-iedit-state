@@ -61,7 +61,7 @@
   (evil-iedit-state))
 
 (defun evil-iedit-state/quit-iedit-mode ()
-  "Quit iedit-mode and return to `normal state'."
+  "Quit iedit-mode and return set state `evil-iedit-state-default-state'."
   (interactive)
   (iedit-done)
   (funcall (intern (format "evil-%S-state" evil-iedit-state-default-state))))
