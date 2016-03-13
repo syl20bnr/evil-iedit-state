@@ -34,6 +34,9 @@
 (require 'evil)
 (require 'iedit)
 
+(defvar evil-iedit-state-default-state 'normal
+  "The state to activate when exiting iedit state")
+
 (evil-define-state iedit
   "`iedit state' interfacing iedit mode."
   :tag " <E> "
@@ -61,9 +64,10 @@
   "Quit iedit-mode and return to `normal state'."
   (interactive)
   (iedit-done)
-  (evil-normal-state))
+  (funcall (intern (format "evil-%S-state" evil-iedit-state-default-state))))
 
-(defmacro evil-iedit-state||swith-to-insert-state-after-command (command &optional interactive)
+(defmacro evil-iedit-state||swith-to-insert-state-after-command
+    (command &optional interactive)
   "Call COMMAND and switch to iedit-insert state.
 If INTERACTIVE is non-nil then COMMAND is called interactively."
   `(progn
