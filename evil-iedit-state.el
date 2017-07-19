@@ -151,7 +151,7 @@ If INTERACTIVE is non-nil then COMMAND is called interactively."
 (defun evil-iedit-state/paste-replace (count)
   "Replace the selection with the yanked text."
   (interactive "P")
-  (iedit-delete-occurrences)
+  (when kill-ring (iedit-delete-occurrences))
   (evil-paste-before count))
 
 ;; expand-region integration, add an "e" command
