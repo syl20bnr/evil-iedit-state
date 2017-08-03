@@ -53,7 +53,7 @@ both `iedit` and `evil` to be installed.
 
 ### State transitions
 
-    Key Binding    |       From         |          To
+|   Key Binding    |       From         |          To
 -------------------|:------------------:|:-------------------------:
 <kbd>e</kbd>       | expand-region      | iedit
 <kbd>ESC</kbd>     | iedit              | normal
@@ -73,7 +73,7 @@ to return to `normal state`.
 `iedit state` inherits from `normal state`, the following key bindings are
 specific to `iedit state`.
 
-    Key Binding   |                 Description
+|   Key Binding   |                 Description
 ------------------|------------------------------------------------------------
 <kbd>ESC</kbd>    | go back to `normal state`
 <kbd>TAB</kbd>    | toggle current occurrence
@@ -102,7 +102,7 @@ default Vim behavior when used outside of an occurrence.
 
 ### In iedit-insert state
 
-    Key Binding            |                 Description
+|   Key Binding            |                 Description
 ---------------------------|------------------------------------------------------------
 <kbd>ESC</kbd>             | go back to `iedit state`
 <kbd>C-g</kbd>             | go back to `normal state`
