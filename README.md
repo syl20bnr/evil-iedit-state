@@ -107,7 +107,8 @@ default Vim behavior when used outside of an occurrence.
 |<kbd>ESC</kbd>             | go back to `iedit state`|
 |<kbd>C-g</kbd>             | go back to `normal state`|
 
-[melpa-link]: http://melpa.org/
-[evil-link]: https://gitorious.org/evil/pages/Home
-[iedit]: https://github.com/tsdh/iedit
-[expand-region]: https://github.com/magnars/expand-region.el
+## Links
+* [melpa-link](http://melpa.org/)
+* [evil-link](https://gitorious.org/evil/pages/Home) 
+* [iedit](https://github.com/tsdh/iedit)
+* [expand-region](https://github.com/magnars/expand-region.el)
