@@ -222,7 +222,7 @@ the initial string globally."
 (define-key evil-iedit-state-map "p"   'evil-iedit-state/paste-replace)
 (define-key evil-iedit-state-map "s"   'evil-iedit-state/evil-substitute)
 (define-key evil-iedit-state-map "S"   'evil-iedit-state/substitute)
-(define-key evil-iedit-state-map "V"   'iedit-toggle-unmatched-lines-visible)
+(define-key evil-iedit-state-map "V"   'iedit-show/hide-unmatched-lines)
 (define-key evil-iedit-state-map "U"   'iedit-upcase-occurrences)
 (define-key evil-iedit-state-map (kbd "C-U") 'iedit-downcase-occurrences)
 (define-key evil-iedit-state-map (kbd "C-g")'evil-iedit-state/quit-iedit-mode)
