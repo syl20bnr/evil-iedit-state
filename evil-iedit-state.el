@@ -230,6 +230,11 @@ the initial string globally."
 (define-key evil-iedit-state-map [tab]       'iedit-toggle-selection)
 (define-key evil-iedit-state-map [backspace] 'iedit-blank-occurrences)
 (define-key evil-iedit-state-map [escape]    'evil-iedit-state/quit-iedit-mode)
+;; override overlay keymap to toggle occurrences
+(define-key iedit-occurrence-keymap-default
+  (kbd "TAB") 'iedit-toggle-selection)
+(define-key iedit-occurrence-keymap-default
+  [tab] 'iedit-toggle-selection)
 
 (define-key evil-iedit-insert-state-map (kbd "C-g") 'evil-iedit-state/quit-iedit-mode)
 (define-key evil-iedit-insert-state-map [escape]    'evil-iedit-state)
