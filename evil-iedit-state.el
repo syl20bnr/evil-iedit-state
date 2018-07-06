@@ -152,7 +152,7 @@ If INTERACTIVE is non-nil then COMMAND is called interactively."
   "Replace the selection with the yanked text."
   (interactive "P")
   (when kill-ring (iedit-delete-occurrences))
-  (evil-paste-before count))
+  (evil-paste-before count nil '(#'insert-as-yank)))
 
 ;; expand-region integration, add an "e" command
 ;;;###autoload
