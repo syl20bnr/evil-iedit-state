@@ -108,6 +108,6 @@ default Vim behavior when used outside of an occurrence.
 |<kbd>C-g</kbd>             | go back to `normal state`                                  |
 
 [melpa-link]: http://melpa.org/
-[evil-link]: https://gitorious.org/evil/pages/Home
+[evil-link]: https://github.com/emacs-evil/evil
 [iedit]: https://github.com/tsdh/iedit
 [expand-region]: https://github.com/magnars/expand-region.el
