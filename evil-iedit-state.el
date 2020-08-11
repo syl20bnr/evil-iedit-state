@@ -191,7 +191,7 @@ the initial string globally."
   ;; (kill-new iedit-last-occurrence-local)) ; Make occurrence the latest kill in the kill ring.
   (setq iedit-num-lines-to-expand-up 0)
   (setq iedit-num-lines-to-expand-down 0)
-  (iedit-cleanup)
+  (iedit-lib-cleanup)
   (setq iedit-initial-string-local nil)
   (setq iedit-mode nil)
   (force-mode-line-update)
