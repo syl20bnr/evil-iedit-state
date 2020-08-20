@@ -6,7 +6,7 @@
 ;; Keywords: convenience editing evil iedit mnemonic
 ;; Created: 12 Dec 2014
 ;; Version: 1.2
-;; Package-Requires: ((evil "1.0.9") (iedit "0.97"))
+;; Package-Requires: ((evil "1.0.9") (iedit "0.9.9.9"))
 ;; URL: https://github.com/syl20bnr/evil-iedit-state
 
 ;; This file is not part of GNU Emacs.
