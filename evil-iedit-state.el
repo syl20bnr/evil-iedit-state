@@ -224,7 +224,7 @@ the initial string globally."
 (define-key evil-iedit-state-map "S"   'evil-iedit-state/substitute)
 (define-key evil-iedit-state-map "V"   'iedit-show/hide-context-lines)
 (define-key evil-iedit-state-map "U"   'iedit-upcase-occurrences)
-(define-key evil-iedit-state-map (kbd "C-U") 'iedit-downcase-occurrences)
+(define-key evil-iedit-state-map (kbd "C-S-u") 'iedit-downcase-occurrences)
 (define-key evil-iedit-state-map (kbd "C-g") 'evil-iedit-state/quit-iedit-mode)
 (define-key evil-iedit-state-map (kbd "TAB") 'iedit-toggle-selection)
 (define-key evil-iedit-state-map [tab]       'iedit-toggle-selection)
