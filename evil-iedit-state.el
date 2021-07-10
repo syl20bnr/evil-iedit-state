@@ -57,7 +57,8 @@
 (defun evil-iedit-state/iedit-mode (&optional arg)
   "Start `iedit-mode'."
   (interactive "P")
-  (if (fboundp 'ahs-clear) (ahs-clear))
+  (when (fboundp 'auto-highlight-symbol-mode)
+    (auto-highlight-symbol-mode -1))
   (iedit-mode arg)
   (evil-iedit-state))
 
