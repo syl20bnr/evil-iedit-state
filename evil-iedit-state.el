@@ -202,7 +202,7 @@ the initial string globally."
 
 (define-key evil-iedit-state-map "#"   'iedit-number-occurrences)
 (define-key evil-iedit-state-map "$"   'evil-iedit-state/evil-end-of-line)
-(evil-redirect-digit-argument evil-iedit-state-map "0" 'evil-iedit-state/evil-beginning-of-line)
+(define-key evil-iedit-state-map "0"   'evil-iedit-state/evil-beginning-of-line)
 (define-key evil-iedit-state-map "a"   'evil-iedit-state/evil-append)
 (define-key evil-iedit-state-map "A"   'evil-iedit-state/evil-append-line)
 (define-key evil-iedit-state-map "c"   'evil-iedit-state/evil-change)
