@@ -30,7 +30,7 @@ of the current selected text by pressing <kbd>e</kbd>.
 
 ### Package manager
 
-You can either install `evil-iedit-state` from [MELPA][melpa-link]:
+You can install `evil-iedit-state` from [NonGNU ELPA][nongnu-elpa-link] or [MELPA][melpa-link]:
 
 ```
  M-x package-install evil-iedit-state
@@ -107,6 +107,7 @@ default Vim behavior when used outside of an occurrence.
 |<kbd>ESC</kbd>             | go back to `iedit state`                                   |
 |<kbd>C-g</kbd>             | go back to `normal state`                                  |
 
+[nongnu-elpa-link]: http://elpa.nongnu.org/nongnu/
 [melpa-link]: http://melpa.org/
 [evil-link]: https://github.com/emacs-evil/evil
 [iedit]: https://github.com/tsdh/iedit
